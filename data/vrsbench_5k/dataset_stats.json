@@ -1,0 +1,11 @@
+{
+  "dataset_name": "VRSBench-5k-Curated",
+  "random_seed": 42,
+  "total_unique_images": 5000,
+  "train_images": 4000,
+  "val_images": 1000,
+  "total_vqa_pairs": 30107,
+  "total_captions": 5000,
+  "image_resolution": "512x512",
+  "format": "JPG / PNG Remote Sensing Imagery"
+}

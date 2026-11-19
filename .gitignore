@@ -1,0 +1,54 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Heavy model weights & checkpoints (>100MB blocked by GitHub)
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+models/yolo/*.pt
+
+# Large dataset images & runtime user uploads
+data/uploads/*
+!data/uploads/.gitkeep
+data/annotated/*
+!data/annotated/.gitkeep
+data/vrsbench_5k/images/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
